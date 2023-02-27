@@ -6,7 +6,7 @@ class Formulario(tk.Frame):
         #Heredar las caracteristicas de la clase base de tkinter
         super().__init__(vp)
         vp.title("SISTEMA DE REGISTRO DE PEDIDOS")
-        vp.geometry("600x600")
+        vp.geometry("600x400")
         
         self.lbl0=tk.Label(vp,text="FERRETERIA EL TORINILLO FELIZ")#Etiqueta
         self.lbl0.grid(column=2,row=1,padx=8,pady=11)
@@ -35,12 +35,30 @@ class Formulario(tk.Frame):
         self.txtn4=tk.Entry(vp,width=20)
         self.txtn4.grid(column=1,row=4)
         
-        self.lbl4=tk.Label(vp,text="Telefono:")#Etiqueta
-        self.lbl4.grid(column=0,row=5,padx=8,pady=11)        
+        self.lbl5=tk.Label(vp,text="Telefono:")#Etiqueta
+        self.lbl5.grid(column=0,row=5,padx=8,pady=11)        
        
         self.txtn5=tk.Entry(vp,width=20)
         self.txtn5.grid(column=1,row=5)
         
+        self.lbl6=tk.Label(vp,text="Cod_prod:")#Etiqueta
+        self.lbl6.grid(column=0,row=6,padx=8,pady=11)        
+       
+        self.txtn6=tk.Entry(vp,width=20)
+        self.txtn6.grid(column=1,row=6)
+        
+        self.lbl7=tk.Label(vp,text="Descripcion:")#Etiqueta
+        self.lbl7.grid(column=0,row=7,padx=8,pady=11)        
+       
+        self.txtn7=tk.Entry(vp,width=20)
+        self.txtn7.grid(column=1,row=7)
+        
+        self.lbl8=tk.Label(vp,text="Unidad:")#Etiqueta
+        self.lbl8.grid(column=0,row=8,padx=8,pady=11)        
+       
+        self.txtn8=tk.Entry(vp,width=20)
+        self.txtn8.grid(column=1,row=8)
+
 
         
 base=tk.Tk()
