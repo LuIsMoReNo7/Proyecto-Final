@@ -13,3 +13,6 @@ class Formulario(tk.Frame):
         
         self.lbl1=tk.Label(vp,text="DNI:")#Etiqueta
         self.lbl1.grid(column=0,row=2,padx=8,pady=11)
+        
+        self.txtn1=tk.Entry(vp,width=20)
+        self.txtn1.grid(column=2,row=2)
