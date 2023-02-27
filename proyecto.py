@@ -76,6 +76,13 @@ class Formulario(tk.Frame):
        
         self.txtn11=tk.Entry(vp,width=20)
         self.txtn11.grid(column=3,row=8)
+        
+        self.lbl12=tk.Label(vp,text="total:")#Etiqueta
+        self.lbl12.grid(column=2,row=9,padx=8,pady=11)        
+       
+        self.txtn12=tk.Entry(vp,width=20)
+        self.txtn12.grid(column=3,row=9)
+
 
         
 base=tk.Tk()
