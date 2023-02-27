@@ -23,7 +23,7 @@ class Formulario(tk.Frame):
         self.txtn2=tk.Entry(vp,width=20)
         self.txtn2.grid(column=3,row=3)
         
-        self.lbl3=tk.Label(vp,text="apellidos:")#Etiqueta
+        self.lbl3=tk.Label(vp,text="Apellidos:")#Etiqueta
         self.lbl3.grid(column=0,row=3,padx=8,pady=11)
         
         self.txtn3=tk.Entry(vp,width=20)
@@ -71,13 +71,13 @@ class Formulario(tk.Frame):
         self.txtn10=tk.Entry(vp,width=20)
         self.txtn10.grid(column=3,row=7)
         
-        self.lbl11=tk.Label(vp,text="subtotal:")#Etiqueta
+        self.lbl11=tk.Label(vp,text="Subtotal:")#Etiqueta
         self.lbl11.grid(column=2,row=8,padx=8,pady=11)        
        
         self.txtn11=tk.Entry(vp,width=20)
         self.txtn11.grid(column=3,row=8)
         
-        self.lbl12=tk.Label(vp,text="total:")#Etiqueta
+        self.lbl12=tk.Label(vp,text="Total:")#Etiqueta
         self.lbl12.grid(column=2,row=9,padx=8,pady=11)        
        
         self.txtn12=tk.Entry(vp,width=20)
