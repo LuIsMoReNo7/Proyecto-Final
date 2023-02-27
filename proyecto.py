@@ -10,3 +10,6 @@ class Formulario(tk.Frame):
         
         self.lbl0=tk.Label(vp,text="FERRETERIA EL TORINILLO FELIZ:")#Etiqueta
         self.lbl0.grid(column=2,row=1,padx=8,pady=11)
+        
+        self.lbl1=tk.Label(vp,text="DNI:")#Etiqueta
+        self.lbl1.grid(column=0,row=2,padx=8,pady=11)
