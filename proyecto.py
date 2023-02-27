@@ -58,7 +58,24 @@ class Formulario(tk.Frame):
        
         self.txtn8=tk.Entry(vp,width=20)
         self.txtn8.grid(column=1,row=8)
-
+        
+        self.lbl9=tk.Label(vp,text="Cantidad:")#Etiqueta
+        self.lbl9.grid(column=2,row=6,padx=8,pady=11)        
+       
+        self.txtn9=tk.Entry(vp,width=20)
+        self.txtn9.grid(column=3,row=6)
+        
+        self.lbl10=tk.Label(vp,text="Precio:")#Etiqueta
+        self.lbl10.grid(column=2,row=7,padx=8,pady=11)        
+       
+        self.txtn10=tk.Entry(vp,width=20)
+        self.txtn10.grid(column=3,row=7)
+        
+        self.lbl11=tk.Label(vp,text="subtotal:")#Etiqueta
+        self.lbl11.grid(column=2,row=8,padx=8,pady=11)        
+       
+        self.txtn11=tk.Entry(vp,width=20)
+        self.txtn11.grid(column=3,row=8)
 
         
 base=tk.Tk()
