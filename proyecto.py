@@ -41,4 +41,10 @@ class Formulario(tk.Frame):
         self.txtn5=tk.Entry(vp,width=20)
         self.txtn5.grid(column=1,row=5)
         
+
+        
+base=tk.Tk()
+
+frm=Formulario(vp=base)
+frm.mainloop()
         
