@@ -86,15 +86,30 @@ class Formulario(tk.Frame):
 
 #creamos un boton para enviar los datos ingresados
         self.btnenviar=tk.Button(vp,text="enviar",width=10)
-        self.btn["command"]=self.enviar("command=sumbit()")
+        self.btn["command"]=self.enviar,command=submit()
         self.btnenviar.grid(column=0,row=10)      
         
 #creamos boton para la impresion de datos
         self.btnimprimir=tk.Button(vp,text="imprimir",width=10)
-        self.btn["command"]=self.imprimir("command=submit()")
+        self.btn["command"]=self.imprimir,command=submit()
         self.btnimprimir.grid(column=1,row=10)
    
-    
+    def submit():
+                        
+                     
+             #obtenemos los valores de las cajas de texto                   
+              DNI = DNI_entry.get()
+              Nombres = Nombres_entry.get()
+              apellidos = apellidos_entry.get()
+              Dirección = Dirección_entry.get()
+              Telefono = Telefono_entry.get()
+              Cod_Prod = Cod_Prod_entry.get()
+              Descripcion = Descripcion_entry.get()
+              Unidad = Unidad_entry.get()
+              Cantidad = Cantidad_entry.get()
+              Precio = Precio_entry.get()
+              subtotal = subtotal_entry.get()
+              Total = Total_entry.get("1.0", tk.end)
 
 
         
