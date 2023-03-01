@@ -86,10 +86,12 @@ class Formulario(tk.Frame):
 
 #creamos un boton para enviar los datos ingresados
         self.btnenviar=tk.Button(vp,text="enviar",width=10)
+        self.btn["command"]=self.enviar("command=sumbit()")
         self.btnenviar.grid(column=0,row=10)      
         
 #creamos boton para la impresion de datos
         self.btnimprimir=tk.Button(vp,text="imprimir",width=10)
+        self.btn["command"]=self.imprimir("command=submit()")
         self.btnimprimir.grid(column=1,row=10)
    
     
