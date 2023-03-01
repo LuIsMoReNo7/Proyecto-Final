@@ -110,6 +110,20 @@ class Formulario(tk.Frame):
               Precio = Precio_entry.get()
               subtotal = subtotal_entry.get()
               Total = Total_entry.get("1.0", tk.end)
+              
+              #imprimimos los valores por consola
+                   print("DNI :", DNI)
+                   print("Nombres :", Nombres)
+                   print("apellidos :", apellidos)
+                   print("Dirección :", Dirección)
+                   print("Telefono :", Telefono)
+                   print("Cod_Prod :", Cod_Prod)
+                   print("Descripcion :", Descripcion)
+                   print("Unidad :", Unidad)
+                   print("Cantidad :", CAntidad)
+                   print("Precio :", Precio)
+                   print("Subtotal :", Subtotal)
+                   print("Total :", Total)
 
 
         
