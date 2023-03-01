@@ -3,8 +3,7 @@ import tkinter as tk
 
 def submit():
                     
-         
-            
+                 
          #obtenemos los valores de las cajas de texto                   
           DNI = DNI_entry.get()
           Nombres = Nombres_entry.get()
