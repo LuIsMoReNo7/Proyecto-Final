@@ -124,6 +124,21 @@ class Formulario(tk.Frame):
                    print("Precio :", Precio)
                    print("Subtotal :", Subtotal)
                    print("Total :", Total)
+                   
+                   
+              #limpiamos las cajas de texto
+                   DNI_entry.delete(0, tk.end)
+                   Nombres_entry.delete(0, tk.end)
+                   apellidos_entry.delete(0, tk.end)
+                   Dirección_entry.delete(0, tk.end)
+                   Telefono_entry.delete(0, tk.end)
+                   Cod_Prod_entry.delete(0, tk.end)
+                   Descripcion_entry.delete(0, tk.end)
+                   Unidad_entry.delete(0, tk.end)
+                   Cantidad_entry.delete(0, tk.end)
+                   Precio_entry.delete(0, tk.end)
+                   Subtotal_entry.delete(0, tk.end)
+                   Total_entry.delete(0, tk.end)
 
 
         
