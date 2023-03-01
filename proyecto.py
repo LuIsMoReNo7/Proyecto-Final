@@ -6,7 +6,7 @@ class Formulario(tk.Frame):
         #Heredar las caracteristicas de la clase base de tkinter
         super().__init__(vp)
         vp.title("SISTEMA DE REGISTRO DE PEDIDOS")
-        vp.geometry("600x400")
+        vp.geometry("600x500")
         
         self.lbl0=tk.Label(vp,text="FERRETERIA EL TORINILLO FELIZ")#Etiqueta
         self.lbl0.grid(column=2,row=1,padx=8,pady=11)
@@ -82,6 +82,12 @@ class Formulario(tk.Frame):
        
         self.txtn12=tk.Entry(vp,width=20)
         self.txtn12.grid(column=3,row=9)
+
+                   
+   #creamos boton para la impresion de datos
+        self.btnimprimir=tk.Button(vp,text="imprimir",width=10)
+        self.btnimprimir.grid(column=1,row=10)
+   
 
 
         
