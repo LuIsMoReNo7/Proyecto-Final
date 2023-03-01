@@ -142,6 +142,7 @@ class Formulario(tk.Frame):
 
 
         
+
 base=tk.Tk()
 
 frm=Formulario(vp=base)
