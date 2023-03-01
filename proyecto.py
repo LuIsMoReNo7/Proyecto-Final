@@ -83,11 +83,16 @@ class Formulario(tk.Frame):
         self.txtn12=tk.Entry(vp,width=20)
         self.txtn12.grid(column=3,row=9)
 
-                   
-   #creamos boton para la impresion de datos
+
+#creamos un boton para enviar los datos ingresados
+        self.btnenviar=tk.Button(vp,text="enviar",width=10)
+        self.btnenviar.grid(column=0,row=10)      
+        
+#creamos boton para la impresion de datos
         self.btnimprimir=tk.Button(vp,text="imprimir",width=10)
         self.btnimprimir.grid(column=1,row=10)
    
+    
 
 
         
