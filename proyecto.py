@@ -86,65 +86,14 @@ class Formulario(tk.Frame):
 
 #creamos un boton para enviar los datos ingresados
         self.btnenviar=tk.Button(vp,text="enviar",width=10)
-        self.btn["command"]=self.enviar,command=submit()
         self.btnenviar.grid(column=0,row=10)      
         
 #creamos boton para la impresion de datos
         self.btnimprimir=tk.Button(vp,text="imprimir",width=10)
-        self.btn["command"]=self.imprimir,command=submit()
         self.btnimprimir.grid(column=1,row=10)
-   
-    def submit():
-                        
-                     
-             #obtenemos los valores de las cajas de texto                   
-              DNI = DNI_entry.get()
-              Nombres = Nombres_entry.get()
-              apellidos = apellidos_entry.get()
-              Dirección = Dirección_entry.get()
-              Telefono = Telefono_entry.get()
-              Cod_Prod = Cod_Prod_entry.get()
-              Descripcion = Descripcion_entry.get()
-              Unidad = Unidad_entry.get()
-              Cantidad = Cantidad_entry.get()
-              Precio = Precio_entry.get()
-              subtotal = subtotal_entry.get()
-              Total = Total_entry.get("1.0", tk.end)
-              
-              #imprimimos los valores por consola
-                   print("DNI :", DNI)
-                   print("Nombres :", Nombres)
-                   print("apellidos :", apellidos)
-                   print("Dirección :", Dirección)
-                   print("Telefono :", Telefono)
-                   print("Cod_Prod :", Cod_Prod)
-                   print("Descripcion :", Descripcion)
-                   print("Unidad :", Unidad)
-                   print("Cantidad :", CAntidad)
-                   print("Precio :", Precio)
-                   print("Subtotal :", Subtotal)
-                   print("Total :", Total)
-                   
-                   
-              #limpiamos las cajas de texto
-                   DNI_entry.delete(0, tk.end)
-                   Nombres_entry.delete(0, tk.end)
-                   apellidos_entry.delete(0, tk.end)
-                   Dirección_entry.delete(0, tk.end)
-                   Telefono_entry.delete(0, tk.end)
-                   Cod_Prod_entry.delete(0, tk.end)
-                   Descripcion_entry.delete(0, tk.end)
-                   Unidad_entry.delete(0, tk.end)
-                   Cantidad_entry.delete(0, tk.end)
-                   Precio_entry.delete(0, tk.end)
-                   Subtotal_entry.delete(0, tk.end)
-                   Total_entry.delete(0, tk.end)
-
-
         
-
+        
 base=tk.Tk()
 
 frm=Formulario(vp=base)
 frm.mainloop()
-        
